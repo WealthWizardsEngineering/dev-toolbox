@@ -12,7 +12,3 @@ RUN apt-get update && apt-get install -y wget --no-install-recommends \
     && apt-get purge --auto-remove -y curl \
     && rm -rf /src/*.deb
 
-RUN yarn global add --no-cache \
-      puppeteer@1.3.0 \
-      codeceptjs@1.2.0 \
-      codeceptjs-puppeteer@1.2.0
